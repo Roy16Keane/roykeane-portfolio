@@ -1,0 +1,2 @@
+import {Link} from 'react-router-dom';
+export default function Navbar(){return <header className="border-b border-line"><nav className="mx-auto max-w-6xl px-6 py-6 flex items-center justify-between gap-5"><Link to="/" className="font-display text-xl font-semibold">Roykeane Syangu<span className="text-accent">.</span></Link><div className="flex gap-5 text-sm"><Link to="/#projects">Projects</Link><Link to="/#about">About</Link><a href="mailto:hello@example.com" onClick={e=>e.preventDefault()} title="Add your contact email before enabling">Contact soon</a></div></nav></header>}
